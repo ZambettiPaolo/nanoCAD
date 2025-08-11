@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Esegui nanoCAD",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/nanocad",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "MIMode": "gdb",
+        "setupCommands": [
+          {
+            "description": "Abilita stampa simboli",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ]
+      }
+    ]
+  }
+  
